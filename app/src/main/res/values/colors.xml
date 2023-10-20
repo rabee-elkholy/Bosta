@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9be7e0</color>
+    <color name="colorPrimaryDark">#9be7e0</color>
+    <color name="colorAccent">#9be7e0</color>
+
+    <color name="background">#FBFBFB</color>
+    <color name="background_2">#401EF9</color>
+    <color name="icon_color">#707070</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="title_color">#22262b</color>
+    <color name="hint_color">#585b60</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#ffd800</color>
+    <color name="mediumGray">#D1D1D1</color>
+    <color name="lightGray">#F9F9F9</color>
+    <color name="lightMediumGray">#80D1D1D1</color>
+    <color name="darkGray">#4B4B4B</color>
+    <color name="dark">#313C44</color>
+    <color name="darker">#151B20</color>
+    <color name="green">#00C980</color>
+
+
+    <color name="face">#0789ed</color>
+    <color name="insta">#7c57b6</color>
+    <color name="twitter">#1da1f2</color>
+    <color name="youtube">#e60d0d</color>
+    <color name="gray_te">#61EAE9E9</color>
+    <color name="gray_c1">#c1c1c1</color>
+
+
+    <color name="success">#32BEA6</color>
+    <color name="error">#E04F5F</color>
+    <color name="selected_tab">#ff4345ff</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+
+
+    //Custom Chip Style
+
+    <color name="checkedChipBackgroundColor">@color/selected_tab</color>
+    <color name="chipBackgroundColor">@color/lightGray</color>
+    <color name="checkedChipTextColor">@color/colorPrimary</color>
+    <color name="chipTextColor">@color/darkGray</color>
+
+
+</resources>

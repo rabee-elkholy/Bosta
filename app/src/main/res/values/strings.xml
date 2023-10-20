@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bosta</string>
+    <string name="no_connection">No Internet Connection!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search in images..</string>
+    <string name="users">Users</string>
+    <string name="unknown_error">Unknown Error!</string>
+    <string name="connection_timeout">Connection Timeout!</string>
+    <string name="not_found">Not Found!</string>
+    <string name="error">Oops!</string>
+    <string name="ok">OK</string>
+    <string name="my_albums">My Albums</string>
+    <string name="albums">Albums</string>
+    <string name="share">Share</string>
+</resources>

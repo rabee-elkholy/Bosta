@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usersFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.androdu.bosta.features.users_fragment.UsersFragment"
+        android:label="UsersFragment" >
+        <action
+            android:id="@+id/action_usersFragment_to_albumsFragment"
+            app:destination="@id/albumsFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.androdu.bosta.features.albums_fragment.AlbumsFragment"
+        android:label="AlbumsFragment" >
+        <action
+            android:id="@+id/action_albumsFragment_to_photosFragment"
+            app:destination="@id/photosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.androdu.bosta.features.photos_fragment.PhotosFragment"
+        android:label="PhotosFragment" >
+        <argument
+            android:name="albumId"
+            app:argType="integer" />
+        <argument
+            android:name="albumTitle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_photosFragment_to_zoomingFragment"
+            app:destination="@id/zoomingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zoomingFragment"
+        android:name="com.androdu.bosta.features.photos_fragment.zoomin_fragment.ZoomingFragment"
+        android:label="ZoomingFragment" >
+        <argument
+            android:name="photoTitle"
+            app:argType="string" />
+        <argument android:name="photoUrl"
+            app:argType="string" />
+    </fragment>
+
+
+</navigation>
